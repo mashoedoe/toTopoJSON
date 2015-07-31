@@ -51,7 +51,7 @@ and see examples below. For help on projection arguments see
 Nothing. As a side effect, a topojson file is created with file extension \code{.json}.
 }
 \description{
-\code{toTopoJSON} takes one or several \code{SpatialPolygonsDataFrame} objects and creates a
+\code{topojson_write} takes one or several \code{SpatialPolygonsDataFrame} objects and creates a
 topojson file, multi-layered if needed. This function needs \code{topojson}
 \url{https://github.com/mbostock/topojson/wiki/Installation} to be installed.
 }
